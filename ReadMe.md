@@ -1,0 +1,1 @@
+Event aggregator based on [Prism.Core.Events version 8.1.97](https://github.com/PrismLibrary/Prism/tree/v8.1.97).

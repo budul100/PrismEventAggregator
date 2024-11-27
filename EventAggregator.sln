@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\EventAggregator.csproj", "{D8B695B3-EB72-4DE2-96B5-5DF938586E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\EventAggregatorTests.csproj", "{8417DBFC-2377-4313-88CF-9B9260ABA9F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Additionals", "Additionals", "{44BF61C2-EBCD-477D-843C-D1A077786681}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B695B3-EB72-4DE2-96B5-5DF938586E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B695B3-EB72-4DE2-96B5-5DF938586E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B695B3-EB72-4DE2-96B5-5DF938586E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B695B3-EB72-4DE2-96B5-5DF938586E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8417DBFC-2377-4313-88CF-9B9260ABA9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8417DBFC-2377-4313-88CF-9B9260ABA9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8417DBFC-2377-4313-88CF-9B9260ABA9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8417DBFC-2377-4313-88CF-9B9260ABA9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71288E6E-CC8A-478A-955E-1C3E7B4652A9}
+	EndGlobalSection
+EndGlobal
